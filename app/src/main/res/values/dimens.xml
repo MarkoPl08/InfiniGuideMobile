@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottomNavHeight">50dp</dimen>
+    <dimen name="cardLayoutMarginTop">55dp</dimen>
+    <dimen name="cardLayoutBottomMargin">50dp</dimen>
+    <dimen name="cardHolderMarginLeft">22dp</dimen>
+    <dimen name="cardHolderMarginRight">22dp</dimen>
+    <dimen name="cardMarginTop">22dp</dimen>
+    <dimen name="cardMarginBottom">22dp</dimen>
+    <dimen name="appCornerRadius">14dp</dimen>
+    <dimen name="cardElevation">10dp</dimen>
+    <dimen name="cardImageFrameHeight">120dp</dimen>
+    <dimen name="cardTopTextMarginTop">13dp</dimen>
+    <dimen name="cardTopTextMarginRight">13dp</dimen>
+    <dimen name="textLineSpacingExtra">6sp</dimen>
+    <dimen name="cardTopTextValueMarginTop">2dp</dimen>
+    <dimen name="cardTopTextFontSize">18sp</dimen>
+    <dimen name="cardAboutTextMarginLeft">18dp</dimen>
+    <dimen name="cardAboutTextMarginTop">18dp</dimen>
+    <dimen name="cardAboutTextMarginRight">34dp</dimen>
+    <dimen name="cardAboutTextValueMarginTop">10dp</dimen>
+    <dimen name="lineSpacingExtraTextAbout">7sp</dimen>
+    <dimen name="cardAboutTextFontSize">13sp</dimen>
+    <dimen name="cardDurationMarginLeft">18dp</dimen>
+    <dimen name="cardDurationMarginTop">18dp</dimen>
+    <dimen name="cardDurationMarginRight">22dp</dimen>
+    <dimen name="cardDurationMarginBottom">18dp</dimen>
+    <dimen name="durationTextSize">14sp</dimen>
+    <dimen name="durationTimeMarginLeft">10dp</dimen>
+    <dimen name="durationTimeFontSize">12sp</dimen>
+</resources>

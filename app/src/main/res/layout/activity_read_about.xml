@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/card_gradient_navbar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/tv_monument_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/cardTopTextValueMarginTop"
+            android:gravity="center"
+            android:lineSpacingExtra="@dimen/textLineSpacingExtra"
+            android:text="Monument Name"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="#161616"
+            android:textSize="@dimen/cardTopTextFontSize" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv_read_picture"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:src="@drawable/zvonik"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_read_about_about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:fontFamily="@font/poppins_regular"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:shadowColor="@color/black"
+                android:shadowRadius="2"
+                android:shadowDy="1"
+                android:shadowDx="1"
+                android:text="Monument About"
+                android:gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

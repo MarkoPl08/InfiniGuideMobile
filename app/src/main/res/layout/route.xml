@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="45dp"
+    app:cardBackgroundColor="@color/splash_screen_color"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/routeName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/cardTopTextValueMarginTop"
+            android:gravity="center"
+            android:lineSpacingExtra="@dimen/textLineSpacingExtra"
+            android:text="Ime Rute!"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="#161616"
+            android:textSize="@dimen/cardTopTextFontSize" />
+
+        <ImageView
+            android:id="@+id/routeImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+
+        <TextView
+            android:id="@+id/routeAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/cardAboutTextValueMarginTop"
+            android:lineSpacingExtra="@dimen/lineSpacingExtraTextAbout"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:shadowColor="@color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+            android:textColor="#4f4f4f"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center"
+            android:textSize="@dimen/cardAboutTextFontSize" />
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
